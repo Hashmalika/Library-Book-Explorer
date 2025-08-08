@@ -1,0 +1,23 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+frontend/node_modules/
+*.log
+
+# OS
+.DS_Store
+
+# Jupyter/IPython
+*.ipynb_checkpoints
+
+# Env files
+backend/.env
+frontend/.env
+
+# Build output
+frontend/build/
