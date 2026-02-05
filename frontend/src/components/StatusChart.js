@@ -40,62 +40,6 @@ export default function StatusChart({ books }) {
   const borrowedGenreData = genreDistribution(borrowedBooks);
 
   return (
-    // <div className="status-chart-container">
-
-    //   <h2 className="status-chart-title">📊 Available/Borrowed Status Distribution</h2>
-    //   <div style={{ display: "flex", justifyContent: "center" }}>
-    //     <ResponsiveContainer width="40%" height={250}>
-    //       <BarChart data={statusData} barCategoryGap="10%" barGap={2}>
-    //         <CartesianGrid strokeDasharray="3 3" />
-    //         <XAxis dataKey="name" />
-    //         <YAxis allowDecimals={false} />
-    //         <Tooltip />
-    //         <Legend />
-    //         <Bar dataKey="count" name="Book Count" barSize={25}>
-    //           {statusData.map((entry, index) => (
-    //            <Cell key={`cell-status-${index}`} fill={entry.color} />
-    //           ))}
-    //         </Bar>
-    //       </BarChart>
-    //     </ResponsiveContainer>
-    //   </div>
-      
-    //   <h2 className="status-chart-title">📗 Available Genre Distribution</h2>
-    //   <div style={{ display: "flex", justifyContent: "center" }}>
-    //     <ResponsiveContainer width="40%" height={250}>
-    //      <BarChart data={availableGenreData} barCategoryGap="10%" barGap={2}>
-    //         <CartesianGrid strokeDasharray="3 3" />
-    //         <XAxis dataKey="name" />
-    //         <YAxis allowDecimals={false} />
-    //         <Tooltip />
-    //         <Legend />
-    //         <Bar dataKey="count" name="Available" barSize={25}>
-    //           {availableGenreData.map((entry, index) => (
-    //             <Cell key={`cell-avail-${index}`} fill="#4CAF50" />
-    //           ))}
-    //         </Bar>
-    //       </BarChart>
-    //     </ResponsiveContainer>
-    //   </div>
-
-    //   <h2 className="status-chart-title">📕 Borrowed Genre Distribution</h2>
-    //   <div style={{ display: "flex", justifyContent: "center" }}>
-    //     <ResponsiveContainer width="40%" height={250} >
-    //       <BarChart data={borrowedGenreData} barCategoryGap="10%" barGap={2}>
-    //         <CartesianGrid strokeDasharray="3 3" />
-    //         <XAxis dataKey="name" />
-    //         <YAxis allowDecimals={false} />
-    //         <Tooltip />
-    //         <Legend />
-    //         <Bar dataKey="count" name="Borrowed" barSize={25}>
-    //           {borrowedGenreData.map((entry, index) => (
-    //             <Cell key={`cell-borrow-${index}`} fill="#EF4444" />
-    //           ))}
-    //         </Bar>
-    //       </BarChart>
-    //     </ResponsiveContainer>
-    //   </div>
-    // '</div>
     <div>
       <h2 className="status-chart-title" style={{ textAlign: "center" }}>
         Availability Status
